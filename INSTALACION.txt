@@ -1,0 +1,20 @@
+DOGMA Y FE RADIO 2.0 — INSTALACIÓN
+
+1. Haz una copia de seguridad o commit de tu proyecto actual.
+2. Copia las carpetas lib, assets y android de esta actualización
+   dentro de tu proyecto dogma_y_fe_radio, aceptando reemplazar archivos.
+3. Sustituye también pubspec.yaml.
+4. Desde la Terminal del proyecto ejecuta:
+
+   flutter clean
+   rm -rf .dart_tool
+   flutter pub get
+   flutter run
+
+5. Cuando funcione, genera la APK:
+
+   flutter build apk --release
+
+IMPORTANTE:
+- Conserva tu configuración Gradle 8.13.2 / Gradle 8.13 que ya compila.
+- Esta actualización no reemplaza android/settings.gradle.kts ni el wrapper.

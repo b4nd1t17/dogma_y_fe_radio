@@ -1,0 +1,7 @@
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/dogma_y_fe_app_icon.png"
+  adaptive_icon_background: "#071A33"
+  adaptive_icon_foreground: "assets/icons/dogma_y_fe_app_icon.png"
+  min_sdk_android: 26
