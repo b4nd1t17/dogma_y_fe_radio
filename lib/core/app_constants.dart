@@ -10,5 +10,5 @@ class AppConstants {
   static const String websiteUrl =
       'https://www.dogmayfe.org';
   static const String youtubeUrl =
-      'https://youtube.com/@laluzescristo';
+      'https://www.youtube.com/@dogmayfesolideogloria';
 }
